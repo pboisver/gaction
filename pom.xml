@@ -11,7 +11,7 @@
   </parent>
   <groupId>com.agylyze</groupId>
   <artifactId>gaction</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>gaction</name>
   <description>Demo project for github actions</description>
 
