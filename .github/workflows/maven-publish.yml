@@ -28,4 +28,5 @@ jobs:
 #      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       run: mvn -B deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PACKAGE_DEPLOY_TOKEN }}
